@@ -2,8 +2,6 @@ import { Send } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
 
-type Props = {};
-
 const Container = styled.div`
   height: 60vh;
   background-color: #fcf5f5;
@@ -44,7 +42,7 @@ const Button = styled.button`
   color: white;
 `;
 
-const NewsLetter = (props: Props) => {
+const NewsLetter = () => {
   return (
     <Container>
       <Title>NewsLetter</Title>

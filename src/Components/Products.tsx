@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { popularProducts } from "../data";
 import ProductItems from "./ProductItems";
 
-type Props = {};
+
 
 const Container = styled.div`
   padding: 20px;
