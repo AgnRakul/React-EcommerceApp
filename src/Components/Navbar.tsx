@@ -35,6 +35,9 @@ const SearchContainer = styled.div`
 
 const Input = styled.input`
   border: none;
+  &:focus {
+    outline: none;
+  }
 `;
 
 const Center = styled.div`
@@ -60,9 +63,7 @@ const MenuItem = styled.div`
   margin-left: 25px;
 `;
 
-type Props = {};
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
   return (
     <Container>
       <Wrapper>
@@ -74,7 +75,7 @@ const Navbar = (props: Props) => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>LAMA</Logo>
+          <Logo>Fashion Hubs</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  height: 30px;
-  background-color: teal;
+  height: 50px;
+  background-color: #0080804f;
   color: white;
   display: flex;
   align-items: center;
@@ -10,8 +10,6 @@ const Container = styled.div`
   font-style: 14px;
   font-weight: bold;
 `;
-
-type Props = {};
 
 const Announcement = () => {
   return <Container>Super Deal! Free Shipping on Orders Over $50</Container>;
