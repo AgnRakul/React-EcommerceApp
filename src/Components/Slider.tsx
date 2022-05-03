@@ -1,6 +1,6 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import styled from "styled-components";
-import react, { useState } from "react";
+import { useState } from "react";
 import { sliderItems } from "../data";
 
 const Container = styled.div`

@@ -3,7 +3,7 @@ import {
   SearchOutlined,
   ShoppingCartOutlined,
 } from "@material-ui/icons";
-import React from "react";
+
 import styled from "styled-components";
 import { PopularProductsTypes } from "../data";
 
