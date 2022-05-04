@@ -3,13 +3,14 @@ import styled from "styled-components";
 import { useState } from "react";
 import { sliderItems } from "../data";
 import { Link } from "react-router-dom";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
   overflow: hidden;
-
+  ${mobile({ display: "none" })}
   position: relative;
 `;
 
