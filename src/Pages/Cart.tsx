@@ -3,8 +3,6 @@ import styled from "styled-components";
 import Announcement from "../Components/Announcement";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
-// @flow strict
-import * as CSS from "csstype";
 
 const Container = styled.div``;
 
