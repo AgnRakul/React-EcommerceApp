@@ -5,6 +5,7 @@ import Navbar from "../Components/Navbar";
 import NewsLetter from "../Components/NewsLetter";
 import Products from "../Components/Products";
 import Slider from "../Components/Slider";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (

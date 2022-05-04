@@ -2,6 +2,7 @@ import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import { Badge } from "@material-ui/core";
 
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   height: 60px;
@@ -75,16 +76,49 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>Fashion Hubs</Logo>
+          <Link
+            to="/"
+            style={{
+              textDecoration: "none",
+              color: "black",
+            }}
+          >
+            <Logo>Fashion Hubs</Logo>
+          </Link>
         </Center>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
-          <MenuItem>SIGN IN</MenuItem>
-          <MenuItem>
-            <Badge badgeContent={4} color="primary">
-              <ShoppingCartOutlined />
-            </Badge>
-          </MenuItem>
+          <Link
+            to="/Register"
+            style={{
+              textDecoration: "none",
+              color: "black",
+            }}
+          >
+            <MenuItem>REGISTER</MenuItem>
+          </Link>
+          <Link
+            to="/Login"
+            style={{
+              textDecoration: "none",
+              color: "black",
+            }}
+          >
+            <MenuItem>SIGN IN</MenuItem>
+          </Link>
+
+          <Link
+            to="/Cart"
+            style={{
+              textDecoration: "none",
+              color: "black",
+            }}
+          >
+            <MenuItem>
+              <Badge badgeContent={4} color="primary">
+                <ShoppingCartOutlined />
+              </Badge>
+            </MenuItem>
+          </Link>
         </Right>
       </Wrapper>
     </Container>
